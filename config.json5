@@ -1,0 +1,7 @@
+{
+	client_id: '680774859013619713',
+	vlc: {
+		username: '', //Leave empty
+		password: 'Your_HTTP_password'
+	}
+}

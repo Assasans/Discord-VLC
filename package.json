@@ -1,0 +1,42 @@
+{
+  "name": "vlc_rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "build": "tsc",
+    "build-dev": "tsc --watch",
+    "start": "node .",
+    "start-dev": "nodemon .",
+    "start-debug": "node --nolazy --inspect-brk=9229 ."
+  },
+  "author": "Assasans",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "chalk": "^3.0.0",
+    "discord-rpc": "^3.1.0",
+    "json5": "^2.1.1",
+    "lodash": "^4.17.15",
+    "log4js": "^6.1.0",
+    "luxon": "^1.21.3",
+    "promise-fs": "^2.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "xregexp": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.29",
+    "@types/discord-rpc": "^3.0.2",
+    "@types/json5": "0.0.30",
+    "@types/lodash": "^4.14.149",
+    "@types/luxon": "^1.21.0",
+    "@types/node": "^12.12.8",
+    "@types/promise-fs": "^2.1.0",
+    "@types/request": "^2.48.4",
+    "@types/request-promise": "^4.1.45",
+    "@types/xregexp": "^3.0.30",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.2"
+  }
+}
